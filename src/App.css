@@ -10,7 +10,7 @@
 }
 
 body {
-    background: var(--color-white);
+    background: #e7e5e5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -39,4 +39,58 @@ body {
 .header .back-profile img {
     width: 30px;
     margin: 5px;
+}
+
+.main {
+    width: 100%;
+    padding: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main .postbox {
+    width: 80%;
+    height: auto;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+    background: var(--color-white);
+    padding: 5%;
+    align-items: center;
+}
+.main .postbox .box-profile {
+    display: flex;
+    align-items: center;
+    margin: 0 0 5% 0;
+}
+
+.main .postbox .box-profile .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main .postbox .box-post {
+    text-align: left;
+    margin: 5% 0 5% 0; 
+}
+
+.main .postbox .box-comment {
+    display: flex;
+    margin: 5% 0 0 0;
+    align-items: center;
+}
+
+.main .postbox .box-comment .comment {
+    height: 50%;
+    margin: 0 0 0 2%;
+    background: rgb(196, 195, 195);
+    color: var(--color-white);
+    padding: 1%;
+    border-radius: 12px;
 }
