@@ -1,3 +1,42 @@
+:root {
+    --height-menu: 64px;
+    --color-white: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 body {
-    background: #000000;
+    background: var(--color-white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: var(--height-menu);
+    background: #4A90E2;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#facebook_logo {
+    width: 150px;
+    fill: var(--color-white);
+}
+.header .back-profile {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 0 60%;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.header .back-profile img {
+    width: 30px;
+    margin: 5px;
 }
