@@ -6,7 +6,7 @@ import logo from '../assets/avatar.png';
 class Header extends Component {
     render() {
         return (
-            <div class='header'>
+            <div className='header'>
             <HeaderSvg />
                 <div className='back-profile'>
                     <span>Meu perfil</span>
