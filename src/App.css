@@ -60,6 +60,7 @@ body {
     background: var(--color-white);
     padding: 5%;
     align-items: center;
+    margin: 5%;
 }
 .main .postbox .box-profile {
     display: flex;
