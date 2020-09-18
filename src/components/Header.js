@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <div class='header'>
             <HeaderSvg />
-                <div class='back-profile'>
+                <div className='back-profile'>
                     <span>Meu perfil</span>
                     <img src={logo} alt="avatar"/>
                 </div>
